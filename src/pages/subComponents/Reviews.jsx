@@ -3,7 +3,7 @@ import { getStars } from '../../services/reviews';
 
 const Reviews = ({ reviews }) => {
   return (
-    <div className="grid grid-cols-2 gap-5 mt-5">
+    <div className="grid grid-cols-2 gap-5 mt-60">
       {reviews.map((review, index) => (
         <div
           key={index}
