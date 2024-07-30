@@ -37,11 +37,11 @@ const Header = () => {
         <div className="flex items-center">
           <Search className="h-5 w-5 text-gray-600 md:h-10 md:w-10 cursor-pointer" />
         </div>
-        <div className="uppercase flex flex-col md:flex-row gap-9  text-sm lg:text-xl text-center md:text-left tracking-[2px] ">
+        <div className="uppercase flex flex-col md:flex-row gap-9 text-[10px] lg:text-sm items-center    tracking-[2px] ">
           <a href="#" className="hover:border-animation">
             Name Jewelry
           </a>
-          <span className="text-xl md:text-3xl text-pink-400 tracking-tighter">
+          <span className="text-xl md:text-4xl text-pink-400 tracking-tighter">
             Product Pulse
           </span>
           <div className="relative group">

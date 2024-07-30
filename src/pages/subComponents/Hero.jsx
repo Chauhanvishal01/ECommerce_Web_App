@@ -26,7 +26,7 @@ const Hero = () => {
   ];
 
   return (
-    <div className="relative w-full max-w-6xl mx-auto my-5">
+    <div className="relative  w-full  my-5 mt-72">
       <Slider {...settings}>
         {images.map((img, index) => (
           <div key={index} className="relative">
