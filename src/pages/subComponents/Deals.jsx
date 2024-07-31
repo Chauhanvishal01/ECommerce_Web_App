@@ -7,6 +7,7 @@ const Deals = () => {
         <h2 className='text-2xl'>SUMMER DEAL</h2>
         <p className='tracking-wider italic mt-5'>50% OFF Our Entire Site with code : PRODUCT50</p>
       </div>
+      <hr className="w-full  border"/>
     </>
   )
 }

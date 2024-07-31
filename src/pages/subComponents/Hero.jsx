@@ -38,6 +38,7 @@ const Hero = () => {
           </div>
         ))}
       </Slider>
+      <hr className="w-full  border mt-20"/>
     </div>
   );
 };

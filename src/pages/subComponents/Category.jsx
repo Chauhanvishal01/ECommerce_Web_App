@@ -51,14 +51,14 @@ const Category = () => {
       <h1 className="uppercase text-center my-10 text-3xl ">
         Shop By Category
       </h1>
-      <div className="category-list grid grid-cols-4  gap-6 hover:cursor-pointer ">
+      <div className="category-list grid grid-cols-1 md:grid-cols-4  gap-6 hover:cursor-pointer ">
         {categories.map((category, index) => (
-          <div key={index} className="category p-4   ">
+          <div key={index} className="category p-4 border shadow w-[50%] m-auto md:border-0 md:shadow-none md:w-full   ">
             {category.image && (
               <img
                 src={category.image}
                 alt={category.name}
-                className="w-full  object-cover hover:scale-105 transition-transform duration-300 "
+                className="w-full   object-cover hover:scale-105 transition-transform duration-300 "
               />
             )}
             <h2 className="font-light text-xl text-center mt-5">
@@ -67,6 +67,7 @@ const Category = () => {
           </div>
         ))}
       </div>
+      <hr className="w-full  border mt-20"/>
     </div>
   );
 };
