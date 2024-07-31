@@ -29,7 +29,7 @@ const HOME = () => {
       <Header />
       <Hero />
       <Deals />
-      <Category />
+      {/* <Category /> */}
       <Options />
       <Products />
       {/* <Reviews reviews={reviews} /> */}
