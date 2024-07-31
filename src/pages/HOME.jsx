@@ -32,7 +32,7 @@ const HOME = () => {
       <Category />
       <Options />
       <Products />
-      {/* <Reviews reviews={reviews} /> */}
+      <Reviews reviews={reviews} />
       <Footer />
     </main>
   );
