@@ -41,7 +41,7 @@ const Header = () => {
           <a href="#" className="hover:border-animation">
             Name Jewelry
           </a>
-          <span className="text-xl md:text-4xl text-pink-400 tracking-tighter">
+          <span className="text-xl md:text-4xl text-rose-500 tracking-tighter">
             Product Pulse
           </span>
           <div className="relative group">
