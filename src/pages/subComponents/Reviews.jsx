@@ -22,7 +22,7 @@ const Reviews = ({ reviews }) => {
 
   return (
     <div>
-      <div className="grid grid-cols-2 gap-5 mt-60">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-60">
         {reviews.slice(0, visibleCount).map((review, index) => (
           <div
             key={index}
