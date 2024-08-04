@@ -11,7 +11,7 @@ const Products = () => {
   }, []);
 
   return (
-    <div className="p-4 mb-40">
+    <div className="p-4 mb-40" id="Products">
       <h1 className="text-3xl text-center py-20 leading-[50px]">
         PERSONALIZED PRODUCTS <br /> MADE IN DIFFERENT COUNTRIES
       </h1>
@@ -64,6 +64,7 @@ const Products = () => {
           view All
         </button>
       </div>
+      <hr className="w-full  border" />
     </div>
   );
 };

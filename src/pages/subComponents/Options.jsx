@@ -4,7 +4,7 @@ import React from "react";
 const Options = () => {
   return (
     <>
-      <div className="my-28 p-20 h-[40vh] md:h-[60vh]  ">
+      <div className="my-28 p-20 h-[40vh] md:h-[60vh]  " id="Options">
         <div className="flex justify-between flex-col gap-5 md:flex-row  md:justify-between lg:justify-evenly items-center">
           <div className="flex flex-col  items-center">
             <Tag className="h-20 w-20 text-green-600 md:h-44 md:w-44" />

@@ -47,7 +47,7 @@ const Category = () => {
   }
 
   return (
-    <div className="my-28 lg:h-[60vh]   ">
+    <div className="my-28 lg:h-[60vh]" id="ProductCategory">
       <h1 className="uppercase text-center my-10 text-3xl ">
         Shop By Category
       </h1>

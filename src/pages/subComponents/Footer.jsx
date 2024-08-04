@@ -2,17 +2,17 @@ import React from "react";
 import { Facebook, Instagram, MailQuestion } from "lucide-react";
 const Footer = () => {
   return (
-    <div className="h-[50vh] py-20 ">
-      <div className="flex flex-col text-center gap-6 justify-between md:justify-evenly md:flex-row ">
-        <div className="flex flex-col gap-3">
-          <a href="#">Best Sellers</a>
-          <a href="#">New Arrivals</a>
-          <a href="#">Kids</a>
+    <div className="h-[50vh] py-20 " >
+      <div className="flex flex-col text-center gap-6 justify-between md:justify-evenly md:flex-row  footer">
+        <div className="flex flex-col text-start gap-3 ">
+          <a href="#" className="hover:border-animation">Best Sellers</a>
+          <a href="#" className="hover:border-animation">New Arrivals</a>
+          <a href="#" className="hover:border-animation">Kids</a>
           <a href="#">Solid Products</a>
           <a href="#">About Us</a>
           <a href="#">Privacy</a>
         </div>
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col text-start gap-3">
           <a href="#">Contact</a>
           <a href="#">Happy Customer</a>
 
@@ -20,7 +20,7 @@ const Footer = () => {
 
           <a href="#">Shipping</a>
         </div>
-        <div>
+        <div id="contact">
           <p>Be the first to know about our biggest Sales.</p>
           <div className="flex items-center justify-between   my-3 relative border-b-2 border-black w-[50%] m-auto md:w-full">
             <input type="email" placeholder="Enter your email" className=" py-2 outline-none" />

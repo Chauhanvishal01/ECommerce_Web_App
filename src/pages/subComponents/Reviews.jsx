@@ -21,8 +21,9 @@ const Reviews = ({ reviews }) => {
   };
 
   return (
-    <div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-60">
+    <div id="Reviews">
+      <h1 className="text-center font-semibold text-rose-500 text-6xl">Reviews</h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-10">
         {reviews.slice(0, visibleCount).map((review, index) => (
           <div
             key={index}
@@ -61,6 +62,7 @@ const Reviews = ({ reviews }) => {
           {showMore ? "Show More Reviews" : "Show Less"}
         </button>
       </div>
+      <hr className="w-full  border" />
     </div>
   );
 };
